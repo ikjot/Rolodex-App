@@ -14,6 +14,9 @@
 		849647502028FF2A00F4B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496474E2028FF2A00F4B3B4 /* LaunchScreen.storyboard */; };
 		8496475B2028FF2B00F4B3B4 /* RolodexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496475A2028FF2B00F4B3B4 /* RolodexAppTests.swift */; };
 		849647662028FF2B00F4B3B4 /* RolodexAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849647652028FF2B00F4B3B4 /* RolodexAppUITests.swift */; };
+		8CCA9EA297F6926227F15E5E /* Pods_RolodexAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07C76BEDC568E53F5F3157D /* Pods_RolodexAppTests.framework */; };
+		AB2A8BB344F423CDEC4CAB97 /* Pods_RolodexAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4327FEBFCFF362A40F0CC /* Pods_RolodexAppUITests.framework */; };
+		C5BA121C5BFBF9287ACF7AA1 /* Pods_RolodexApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A4BEDFF9FB4AA55517E5F4 /* Pods_RolodexApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26A4327FEBFCFF362A40F0CC /* Pods_RolodexAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A1F79DA7A07868A1B13BF0 /* Pods-RolodexAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexAppTests/Pods-RolodexAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		760C370CD75771CCEC1BD046 /* Pods-RolodexAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexAppUITests/Pods-RolodexAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		849647422028FF2A00F4B3B4 /* RolodexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolodexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849647452028FF2A00F4B3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849647472028FF2A00F4B3B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		849647612028FF2B00F4B3B4 /* RolodexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849647652028FF2B00F4B3B4 /* RolodexAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolodexAppUITests.swift; sourceTree = "<group>"; };
 		849647672028FF2B00F4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE7C3E965235A24CE1A4754 /* Pods-RolodexApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp.release.xcconfig"; sourceTree = "<group>"; };
+		B07C76BEDC568E53F5F3157D /* Pods_RolodexAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFDBEC587E34329769D9394 /* Pods-RolodexApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE581DF9335A8C9E1C309A1 /* Pods-RolodexAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexAppUITests/Pods-RolodexAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A4BEDFF9FB4AA55517E5F4 /* Pods_RolodexApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F630E38B58D5ACCD25643786 /* Pods-RolodexAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexAppTests/Pods-RolodexAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BA121C5BFBF9287ACF7AA1 /* Pods_RolodexApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCA9EA297F6926227F15E5E /* Pods_RolodexAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2A8BB344F423CDEC4CAB97 /* Pods_RolodexAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				849647592028FF2B00F4B3B4 /* RolodexAppTests */,
 				849647642028FF2B00F4B3B4 /* RolodexAppUITests */,
 				849647432028FF2A00F4B3B4 /* Products */,
+				869DEBA6CE59CB5DDEEBF179 /* Pods */,
+				BC5FCEC22995C44A62DF656D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +114,10 @@
 		849647442028FF2A00F4B3B4 /* RolodexApp */ = {
 			isa = PBXGroup;
 			children = (
+				849647752029005500F4B3B4 /* Model */,
+				849647742029005200F4B3B4 /* View */,
+				849647732029004E00F4B3B4 /* Controller */,
 				849647452028FF2A00F4B3B4 /* AppDelegate.swift */,
-				849647472028FF2A00F4B3B4 /* ViewController.swift */,
 				849647492028FF2A00F4B3B4 /* Main.storyboard */,
 				8496474C2028FF2A00F4B3B4 /* Assets.xcassets */,
 				8496474E2028FF2A00F4B3B4 /* LaunchScreen.storyboard */,
@@ -125,6 +144,51 @@
 			path = RolodexAppUITests;
 			sourceTree = "<group>";
 		};
+		849647732029004E00F4B3B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849647472028FF2A00F4B3B4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849647742029005200F4B3B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		849647752029005500F4B3B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		869DEBA6CE59CB5DDEEBF179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDBEC587E34329769D9394 /* Pods-RolodexApp.debug.xcconfig */,
+				8CE7C3E965235A24CE1A4754 /* Pods-RolodexApp.release.xcconfig */,
+				F630E38B58D5ACCD25643786 /* Pods-RolodexAppTests.debug.xcconfig */,
+				66A1F79DA7A07868A1B13BF0 /* Pods-RolodexAppTests.release.xcconfig */,
+				CDE581DF9335A8C9E1C309A1 /* Pods-RolodexAppUITests.debug.xcconfig */,
+				760C370CD75771CCEC1BD046 /* Pods-RolodexAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC5FCEC22995C44A62DF656D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8A4BEDFF9FB4AA55517E5F4 /* Pods_RolodexApp.framework */,
+				B07C76BEDC568E53F5F3157D /* Pods_RolodexAppTests.framework */,
+				26A4327FEBFCFF362A40F0CC /* Pods_RolodexAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8496476A2028FF2B00F4B3B4 /* Build configuration list for PBXNativeTarget "RolodexApp" */;
 			buildPhases = (
+				7408C43A41F7F124FDFDF14F /* [CP] Check Pods Manifest.lock */,
 				8496473E2028FF2A00F4B3B4 /* Sources */,
 				8496473F2028FF2A00F4B3B4 /* Frameworks */,
 				849647402028FF2A00F4B3B4 /* Resources */,
+				322BAC4677882B9798FECBEB /* [CP] Embed Pods Frameworks */,
+				ABDC0BFA7B2EDCB51F120A60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8496476D2028FF2B00F4B3B4 /* Build configuration list for PBXNativeTarget "RolodexAppTests" */;
 			buildPhases = (
+				83FEF56916A73C768755B4A0 /* [CP] Check Pods Manifest.lock */,
 				849647522028FF2B00F4B3B4 /* Sources */,
 				849647532028FF2B00F4B3B4 /* Frameworks */,
 				849647542028FF2B00F4B3B4 /* Resources */,
+				5C1BFBBDD0EC91E262306FCC /* [CP] Embed Pods Frameworks */,
+				773435E9AC52C6133C49E97D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849647702028FF2B00F4B3B4 /* Build configuration list for PBXNativeTarget "RolodexAppUITests" */;
 			buildPhases = (
+				C9CE92DE05D749EB8D3B93E9 /* [CP] Check Pods Manifest.lock */,
 				8496475D2028FF2B00F4B3B4 /* Sources */,
 				8496475E2028FF2B00F4B3B4 /* Frameworks */,
 				8496475F2028FF2B00F4B3B4 /* Resources */,
+				55485607AF146BF7236E3AB2 /* [CP] Embed Pods Frameworks */,
+				B33E3DC2D93B72F4B0498B75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +326,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		322BAC4677882B9798FECBEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55485607AF146BF7236E3AB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexAppUITests/Pods-RolodexAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1BFBBDD0EC91E262306FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexAppTests/Pods-RolodexAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7408C43A41F7F124FDFDF14F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RolodexApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773435E9AC52C6133C49E97D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexAppTests/Pods-RolodexAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FEF56916A73C768755B4A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RolodexAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDC0BFA7B2EDCB51F120A60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33E3DC2D93B72F4B0498B75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolodexAppUITests/Pods-RolodexAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CE92DE05D749EB8D3B93E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RolodexAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8496473E2028FF2A00F4B3B4 /* Sources */ = {
@@ -424,6 +649,7 @@
 		};
 		8496476B2028FF2B00F4B3B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFDBEC587E34329769D9394 /* Pods-RolodexApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +664,7 @@
 		};
 		8496476C2028FF2B00F4B3B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE7C3E965235A24CE1A4754 /* Pods-RolodexApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +679,7 @@
 		};
 		8496476E2028FF2B00F4B3B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F630E38B58D5ACCD25643786 /* Pods-RolodexAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +696,7 @@
 		};
 		8496476F2028FF2B00F4B3B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A1F79DA7A07868A1B13BF0 /* Pods-RolodexAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +713,7 @@
 		};
 		849647712028FF2B00F4B3B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE581DF9335A8C9E1C309A1 /* Pods-RolodexAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +729,7 @@
 		};
 		849647722028FF2B00F4B3B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760C370CD75771CCEC1BD046 /* Pods-RolodexAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
