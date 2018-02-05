@@ -14,6 +14,8 @@
 		849647502028FF2A00F4B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496474E2028FF2A00F4B3B4 /* LaunchScreen.storyboard */; };
 		8496475B2028FF2B00F4B3B4 /* RolodexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496475A2028FF2B00F4B3B4 /* RolodexAppTests.swift */; };
 		849647662028FF2B00F4B3B4 /* RolodexAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849647652028FF2B00F4B3B4 /* RolodexAppUITests.swift */; };
+		849647772029049C00F4B3B4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849647762029049C00F4B3B4 /* Person.swift */; };
+		84964779202907C700F4B3B4 /* DataSourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84964778202907C700F4B3B4 /* DataSourceHelper.swift */; };
 		8CCA9EA297F6926227F15E5E /* Pods_RolodexAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07C76BEDC568E53F5F3157D /* Pods_RolodexAppTests.framework */; };
 		AB2A8BB344F423CDEC4CAB97 /* Pods_RolodexAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4327FEBFCFF362A40F0CC /* Pods_RolodexAppUITests.framework */; };
 		C5BA121C5BFBF9287ACF7AA1 /* Pods_RolodexApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A4BEDFF9FB4AA55517E5F4 /* Pods_RolodexApp.framework */; };
@@ -53,6 +55,8 @@
 		849647612028FF2B00F4B3B4 /* RolodexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849647652028FF2B00F4B3B4 /* RolodexAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolodexAppUITests.swift; sourceTree = "<group>"; };
 		849647672028FF2B00F4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849647762029049C00F4B3B4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		84964778202907C700F4B3B4 /* DataSourceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceHelper.swift; sourceTree = "<group>"; };
 		8CE7C3E965235A24CE1A4754 /* Pods-RolodexApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp.release.xcconfig"; sourceTree = "<group>"; };
 		B07C76BEDC568E53F5F3157D /* Pods_RolodexAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFDBEC587E34329769D9394 /* Pods-RolodexApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolodexApp/Pods-RolodexApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 		849647752029005500F4B3B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				849647762029049C00F4B3B4 /* Person.swift */,
+				84964778202907C700F4B3B4 /* DataSourceHelper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -484,6 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84964779202907C700F4B3B4 /* DataSourceHelper.swift in Sources */,
+				849647772029049C00F4B3B4 /* Person.swift in Sources */,
 				849647482028FF2A00F4B3B4 /* ViewController.swift in Sources */,
 				849647462028FF2A00F4B3B4 /* AppDelegate.swift in Sources */,
 			);

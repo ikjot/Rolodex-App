@@ -9,26 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-
     @IBOutlet weak var myCollectionView: UICollectionView!
+    var persons : [Person] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         myCollectionView.delegate = self
         myCollectionView.dataSource = self
+        Person.getPersonData { (person) in
+            self.persons = person
+            self.myCollectionView.reloadData()
+        }
     }
-    
+
 }
 
-
-
 extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
-    
-    
+   
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return persons.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
