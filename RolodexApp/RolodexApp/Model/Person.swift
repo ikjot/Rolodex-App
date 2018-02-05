@@ -106,10 +106,9 @@ class Person {
                             guard let jfirstName = json[index]["firstName"].string else {return}
                             guard let jcompany = json[index]["company"].string else {return}
                             guard let jbio = json[index]["bio"].string else {return}
-                            
                             let newPerson = Person(lastName: jlastName, firstName: jfirstName, email: jemail, company: jcompany, startDate: jstartDate, bio: jbio, avatar: javatar)
                             personArr.append(newPerson)
-                        
+                            
                         }
                         completion(personArr)
                     }
