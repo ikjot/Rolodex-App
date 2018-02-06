@@ -35,7 +35,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="271" height="401"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGM-aB-366">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="AGM-aB-366">
                                                     <rect key="frame" x="0.0" y="0.0" width="271" height="335"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -203,4 +203,7 @@
             <point key="canvasLocation" x="-527" y="118"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="233" height="232"/>
+    </resources>
 </document>
