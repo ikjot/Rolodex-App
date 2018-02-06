@@ -46,8 +46,8 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? PersonCell {
             
             let person = persons[indexPath.row]
-            
-            cell.configureCell(person: person, image: nil)
+            cell.spinner.startAnimating()
+            cell.configureCell(person: person, image: personImages?[indexPath.row])
             
             return cell
         } else {
@@ -77,18 +77,6 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
         for person in persons{
             guard let personURL = URL(string: person.avatar) else {
                 return}
-//            URLSession.shared.dataTask(with: personURL) { (data, response, error) in
-//                downloadGroup.enter()
-//                if error != nil{
-//                    print("download image function failed")
-//                }
-//                guard let unrappedData = data else {
-//                    return}
-//                if let image = UIImage(data: unrappedData) {
-//                    images.append(image)
-//                }
-//                downloadGroup.leave()
-//            }.resume()
             downloadGroup.enter()
             Alamofire.request(personURL).responseData(completionHandler: { (data) in
                 if let data = data.data {

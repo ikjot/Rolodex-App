@@ -11,6 +11,7 @@ import UIKit
 class PersonCell: UICollectionViewCell {
     
     
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     @IBOutlet weak var personImageView: UIImageView!
     @IBOutlet weak var fullNameLbl: UILabel!
     
@@ -19,6 +20,7 @@ class PersonCell: UICollectionViewCell {
     func configureCell(person:Person,image:UIImage?) {
         if let image = image{
             self.personImageView.image = image
+            spinner.stopAnimating()
         }
         let fullName = person.firstName + " " + person.lastName
         self.fullNameLbl.text = fullName
